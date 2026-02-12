@@ -1,0 +1,17 @@
+- name: nginx setup
+  hosts: all
+  become: yes
+  tasks:
+    - apt:
+       update_cache: yes
+       upgrade: dist
+    - apt:
+       name: nginx
+       state: present
+    - copy:
+       dest: /var/www/html/index.html
+       content: "<h1>Ansible rules!</h1>"
+    - systemd:
+       name: nginx
+       state: started
+       enabled: yes
