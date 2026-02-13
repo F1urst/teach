@@ -1,15 +1,18 @@
 version: '3.8'
+
 services:
   backend:
     image: nginx:alpine
+    container_name: test-backend
     ports:
-      - "8081:8081"
+      - "8081:80"
     volumes:
       - ../kanban-backend:/usr/share/nginx/html:ro
 
   frontend:
-    image: nginx:alpine
+    image: nginx:alpine  
+    container_name: test-frontend
     ports:
-      - "8080:8080"
+      - "8080:80"
     volumes:
       - ../kanban-frontend:/usr/share/nginx/html:ro
