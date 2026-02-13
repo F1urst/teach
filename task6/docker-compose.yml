@@ -5,9 +5,11 @@ services:
     ports:
       - "8081:8081"
     volumes:
-      - ./kanban-backend:/usr/share/nginx/html:ro
+      - ../kanban-backend:/usr/share/nginx/html:ro
 
   frontend:
-    build: ../kanban-frontend
+    image: nginx:alpine
     ports:
       - "8080:8080"
+    volumes:
+      - ../kanban-frontend:/usr/share/nginx/html:ro
