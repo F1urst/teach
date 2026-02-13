@@ -7,6 +7,7 @@
 
 mkdir task6 <br>
 cd task6 <br>
+https://github.com/F1urst/teach/blob/main/task6/docker-compose <br>
 
 
 git clone https://github.com/F1urst/kanban-backend.git <br>
@@ -23,6 +24,7 @@ docker build -t kanban-frontend <br>
 cd ../
 <br>
 docker-compose up -d
+
 
 
 
