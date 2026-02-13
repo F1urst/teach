@@ -2,11 +2,11 @@ version: '3.8'
 
 services:
   backend:
-    build: https://github.com/F1urst/kanban-backend.git
+    build: ../kanban-backend
     ports:
       - "8081:8081"
 
   frontend:
-    build: https://github.com/F1urst/kanban-frontend.git
+    build: ../kanban-frontend
     ports:
       - "8080:8080"
