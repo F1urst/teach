@@ -13,9 +13,10 @@ cd kanban-frontend <br>
 docker build -t kanban-frontend <br>
 
 #запуск<br>
-cd task6
+cd 
 <br>
 docker-compose up -d
+
 
 
 
