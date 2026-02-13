@@ -9,13 +9,13 @@ mkdir task6 <br>
 cd task6 <br>
 https://github.com/F1urst/teach/blob/main/task6/docker-compose <br>
 
-
+./task6
 git clone https://github.com/F1urst/kanban-backend.git <br>
 cd kanban-backend <br>
 docker build -t kanban-backend <br>
 
 cd ../
-
+./task6
 git clone https://github.com/F1urst/kanban-frontend.git <br>
 cd kanban-frontend <br>
 docker build -t kanban-frontend <br>
@@ -24,5 +24,6 @@ docker build -t kanban-frontend <br>
 cd ../
 <br>
 sudo docker-compose -f docker-compose up -d
+
 
 
