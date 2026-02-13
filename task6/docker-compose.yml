@@ -5,12 +5,8 @@ services:
     build: https://github.com/F1urst/kanban-backend.git
     ports:
       - "8081:8081"
-    environment:
-      - NODE_ENV=production
 
   frontend:
     build: https://github.com/F1urst/kanban-frontend.git
     ports:
       - "8080:8080"
-    depends_on:
-      - backend
