@@ -4,7 +4,7 @@
 
 
 #сборка <br>
-git clone https://github.com/F1urst/kanban-backend/tree/main/kanban-backend) <br>
+git clone https://github.com/F1urst/kanban-backend/tree/main/kanban-backend <br>
 cd kanban-backend <br>
 docker build -t kanban-backend <br>
 
@@ -16,6 +16,7 @@ docker build -t kanban-frontend <br>
 cd task6
 <br>
 docker-compose up -d
+
 
 
 
