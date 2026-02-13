@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: https://github.com/F1urst/kanban-backend
+    ports:
+      - "8081:5000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  frontend:
+    build: https://github.com/F1urst/kanban-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+EOF
