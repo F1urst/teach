@@ -1,6 +1,6 @@
 Бэкэнд: https://github.com/F1urst/kanban-backend/tree/main/kanban-backend
 Фронтенд: https://github.com/F1urst/kanban-frontend/tree/main/kanban-frontend
-Репозиторий: 
+Репозиторий: https://github.com/F1urst/teach/tree/main/task6
 
 
 #сборка
@@ -14,4 +14,5 @@ docker build -t kanban-frontend
 
 #запуск
 cd task6
+
 docker-compose up -d
