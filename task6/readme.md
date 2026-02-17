@@ -7,7 +7,7 @@ Nginx: https://github.com/F1urst/teach/blob/main/task6/nginx.conf <br>
 
 mkdir task6 <br>
 cd task6 <br>
-https://github.com/F1urst/teach/blob/main/task6/docker-compose <br>
+https://github.com/F1urst/teach/tree/main/task6 <br>
 
 ./task6
 git clone https://github.com/F1urst/kanban-backend.git <br>
@@ -27,6 +27,7 @@ sudo docker compose up -d
  
 у меня порт 80 был занят апачи
 я его отключил с помощью команды kill
+
 
 
 
