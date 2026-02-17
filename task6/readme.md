@@ -23,7 +23,8 @@ docker build -t kanban-frontend <br>
 #запуск<br>
 cd ../
 <br>
-sudo docker-compose -f docker-compose up -d
+sudo docker compose -f docker-compose up -d
+
 
 
 
