@@ -24,7 +24,9 @@ docker build -t kanban-frontend <br>
 cd ../
 <br>
 sudo docker compose up -d
-
+ 
+у меня порт 80 был занят апачи
+я его отключил с помощью команды kill
 
 
 
