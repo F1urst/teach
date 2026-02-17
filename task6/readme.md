@@ -14,7 +14,7 @@ git clone https://github.com/F1urst/kanban-backend.git <br>
 cd kanban-backend <br>
 docker build -t kanban-backend <br>
 
-cd ../
+cd
 ./task6
 git clone https://github.com/F1urst/kanban-frontend.git <br>
 cd kanban-frontend <br>
