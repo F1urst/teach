@@ -1,7 +1,6 @@
 Бэкэнд: https://github.com/F1urst/kanban-backend/tree/main/kanban-backend <br>
 Фронтенд: https://github.com/F1urst/kanban-frontend/tree/main/kanban-frontend <br>
 Nginx: https://github.com/F1urst/teach/blob/main/task6/nginx.conf <br>
-Репозиторий в одной папке: https://github.com/F1urst/teach/tree/main/task6/task6 <br>
 
 #сборка <br>
 
@@ -25,6 +24,7 @@ cd ../
 <br>
 sudo docker compose up -d
  
+
 
 
 
