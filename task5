@@ -10,8 +10,9 @@
        state: present
     - copy:
        dest: /var/www/html/index.html
-       content: "<h1>Ansible rules!</h1>"
+       content: "<h1>Hello</h1>"
     - systemd:
        name: nginx
        state: started
        enabled: yes
+
