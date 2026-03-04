@@ -2,22 +2,18 @@ version: '3.8'
 
 services:
   backend:
-    image: nginx:alpine
+    build: ../kanban-backend  
     container_name: test-backend
     ports:
-      - "8081:80"
-    volumes:
-      - ../kanban-backend:/usr/share/nginx/html:ro
+      - "8081:80" 
     networks:
       - app-network
 
   frontend:
-    image: nginx:alpine  
+    build: ../kanban-frontend 
     container_name: test-frontend
     ports:
-      - "8080:80"
-    volumes:
-      - ../kanban-frontend:/usr/share/nginx/html:ro
+      - "8080:80" 
     networks:
       - app-network
 
@@ -25,7 +21,7 @@ services:
     image: nginx:alpine
     container_name: test-nginx
     ports:
-      - "80:80"
+      - "8888:80"  
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
     depends_on:
