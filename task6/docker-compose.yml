@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    build: ../kanban-backend  
+    build: ./kanban-backend  
     container_name: test-backend
     ports:
       - "8081:80" 
@@ -10,7 +10,7 @@ services:
       - app-network
 
   frontend:
-    build: ../kanban-frontend 
+    build: ./kanban-frontend 
     container_name: test-frontend
     ports:
       - "8080:80" 
