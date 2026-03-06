@@ -10,19 +10,20 @@ https://github.com/F1urst/teach/tree/main/task6 <br>
 ./task6
 git clone https://github.com/F1urst/kanban-backend.git <br>
 cd kanban-backend <br>
-docker build -t kanban-backend <br>
+docker build -t kanban-backend .<br>
 
 cd
 ./task6
 git clone https://github.com/F1urst/kanban-frontend.git <br>
 cd kanban-frontend <br>
-docker build -t kanban-frontend <br>
+docker build -t kanban-frontend .<br>
 
 #запуск<br>
 cd ../
 <br>
 sudo docker compose up -d
  
+
 
 
 
